@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meme Generator!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="heading">My Meme Generator</h2>
+    <h3 class="sub-heading">Enter the details below: </h3>
+    <div id="amazing-form">
+        <div>
+          <label for="imgUrl">Enter the URL of the Image</label>
+          <input type="text" id="imgUrl" placeholder="Enter the url of the meme image"/>
+        </div>
+        <div>
+          <label for="topText">Enter the text for the top of the meme</label>
+          <input type="text" id="topText" placeholder="Enter the top text for the meme image"/>
+      </div>
+      <div>
+          <label for="bottomText">Enter the text for the bottom of the meme</label>
+          <input type="text" id="bottomText" placeholder="Enter the bottom text for the meme image"/>
+      </div>
+      <div>
+        <button id="btn">Submit</button>
+      </div>
+      <canvas id = "memeCanvas"></canvas>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

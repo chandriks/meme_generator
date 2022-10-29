@@ -1,0 +1,57 @@
+.heading {
+    font-size: 5em;
+    text-align: center;
+}
+.sub-heading {
+    font-size: 3em;
+    text-align: center;
+}
+body {
+    background: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.input {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5em;
+}
+.showMeme {
+    justify-content: center;
+    align-items: center;
+}
+
+.meme {
+    position: relative;
+    align-items: center;
+}
+
+.top,
+.bottom {
+    position: absolute;
+    font-size: 1em;
+    font-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.img{
+    width: 50%;
+    max-width: 100px;
+}
+
+.userInput {
+font-size: 1em;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+justify-content: center;
+align-items: center;
+
+}
+
+#amazing-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
